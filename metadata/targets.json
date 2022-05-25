@@ -1,0 +1,91 @@
+{
+ "signatures": [
+  {
+   "keyid": "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b",
+   "sig": "9d5f28765d01d5dda2474e8145b93e86c9e637a4ed7abffdeeaa67ff7d40746531ec2dc6dfdcb3cb0ba0f0a93c440e8f68fce34a7113ac9a701d06df1bbd98549b504d49e753be4f8b60f68c710fcff10b6318f936e51c0494d9411fb7eb0dd62cbbaebae74c04c7e94321debbc4b5c4c9e06c768b46c4edda805faa5cd4e05f19cdd5c30828683ff1ce26ff8f3b20dd6aaaf8e1116d068921cd3259b41aa37e91bb72f6e7e39be64ca241c272506c9886947773dc563f446e717c4a6eb8ba46b66b37c6c52b4ee54a4674f17433ef6e6613c04b19f25a5eaf50cc2a9c0497162a2b7a0d228194f9f41673e84c8ddc07479f348f3cb9baab6f73763026b4b69b"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtdvJF1Q7fRNTQfgGMH/W\n2Sb4O/PemLHKcBj6Q1Nadvii+lF+lfsD/VqzEuNaM2fpJpostWzJR1jdeyjRZS9G\ndToEA9iSD0MczHRLWa9a1NMcPBC/Edts1oXogk23+NSL/Ugc5H+WikDuwMMYhA3o\nNgVgAtfDfJQJFkbI033DwcYjbBmlt/gnTVNUSHuoG8M2EurchMnZZIqSawEaL82Q\nIFUhEuGSljcb/WRj6XHY7upCvjJOMN2kH/zz4kGR8j5t61TKiLiepjunuQMGg+fl\njEm4v0fandpwWLdx7kYSbftmbQjnuPhBd3g3BQ721O4dYkLA/ncca9XryLqN8Cac\ngQIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b"
+     ],
+     "name": "law",
+     "paths": [
+      "mohicanlaw/law-xml",
+      "mohicanlaw/law-html",
+      "mohicanlaw/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b"
+     ],
+     "name": "docs",
+     "paths": [
+      "mohicanlaw/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "ba65808977548012b65ab8229f7b939e2339703cec3686ef816f2480274e7f9b"
+     ],
+     "name": "assets",
+     "paths": [
+      "mohicanlaw/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2022-08-23T17:38:57Z",
+  "spec_version": "1.0",
+  "targets": {
+   "mirrors.json": {
+    "hashes": {
+     "sha256": "473935916c6dc1f30c65d4ba76f40a4ee207074358b639dce253d3a9b7395efd",
+     "sha512": "fddb84d7a85034d4c7ede7f700a610fa6ace2afc516d407c7b83fc46041538ca892ad239d5beb7ca5797ee106e3a35ff3a9ebee985c464d21faa9ece1d7e995d"
+    },
+    "length": 161
+   },
+   "repositories.json": {
+    "hashes": {
+     "sha256": "58591ae95407181b40d1c55c24aef89d822896f4ecc5b3964e746387ad4a999c",
+     "sha512": "3730da41494b72d8ce6011f7e1598170e33a3ca7c08e207cc3927555154bfb961cd26e2f2e0dc59dd151991208543326eca9d0b9ed9ee2117b889be9a3ccc304"
+    },
+    "length": 1276
+   },
+   "test-auth-repo": {
+    "hashes": {
+     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+    },
+    "length": 0
+   }
+  },
+  "version": 1
+ }
+}
