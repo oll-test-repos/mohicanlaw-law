@@ -43,9 +43,9 @@
                 "serve-prefix": "_xml"
             }
         },
-        "mohican/law-static-assets": {
+        "mohicanlaw/law-static-assets": {
             "urls": [
-                "git@github.com:oll-test-repos/mohican-law-static-assets.git"
+                "git@github.com:oll-test-repos/mohicanlaw-law-static-assets.git"
             ],
             "custom": {
                 "type": "static-assets",
