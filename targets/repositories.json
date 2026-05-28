@@ -43,6 +43,13 @@
                 "serve-prefix": "_xml"
             }
         },
+        "mohicanlaw/law-rdf": {
+            "custom": {
+                "type": "rdf",
+                "serve": "historical",
+                "serve-prefix": "_rdf"
+            }
+        },
         "mohicanlaw/law-static-assets": {
             "urls": [
                 "git@github.com:oll-test-repos/mohicanlaw-law-static-assets.git"
